@@ -1,0 +1,21 @@
+@import url(./__list/elements__list.css);
+@import url(./__loading-spinner/elements__loading-spinner.css);
+
+.elements {
+    max-width: 882px;
+    margin: 47.25px auto 0;
+}
+
+
+@media screen and (max-width: 901px) {
+    .elements {
+        max-width: 582px;
+}
+    }
+
+@media screen and (max-width: 685px) {
+    .elements {
+        max-width: 282px;
+        margin: auto;
+}
+    } 

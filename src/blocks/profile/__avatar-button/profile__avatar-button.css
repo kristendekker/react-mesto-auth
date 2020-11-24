@@ -1,0 +1,39 @@
+.profile__avatar-button {
+    width: 120px;
+    height: 120px;
+    border: 1px solid red;
+    cursor: pointer;
+    border-radius: 50%;
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    border: 0;
+    background-size: cover;
+}
+
+.profile__avatar-button::after {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0; 
+    bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    opacity: 1;
+}
+
+
+.profile__avatar-button:hover::after {
+    background: rgba(0, 0, 0, .8);
+    background-image: url('../../../images/pen.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.profile__avatar-button:focus {
+    outline: none;
+}
+
+.profile__avatar-button:hover .profile__avatar-icon {
+    opacity: 1;
+}

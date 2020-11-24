@@ -1,0 +1,9 @@
+.profile__avatar-icon {
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    opacity: 0;
+}
